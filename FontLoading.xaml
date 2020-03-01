@@ -1,0 +1,17 @@
+﻿<Window x:Class="lupinmail_CS.FontLoading"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lupinmail_CS"
+        mc:Ignorable="d"
+        Title="FontLoading"
+        Loaded="Window_Loaded"
+        Height="169.435" Width="710.729" WindowStyle="None" Closed="Window_Closed">
+    <Grid>
+        <ProgressBar x:Name="sintyokubar" HorizontalAlignment="Left" Height="36" Margin="5,126,0,-1" VerticalAlignment="Top" Width="693" IsIndeterminate="True" RenderTransformOrigin="0.502,0.488" />
+        <Label x:Name="logText" Content="" HorizontalAlignment="Left" Height="49" Margin="3,75,0,0" VerticalAlignment="Top" Width="698" FontSize="22"/>
+        <Label Content="        フォントを読み込んでいます..." HorizontalAlignment="Left" Height="49" Margin="3,16,0,0" VerticalAlignment="Top" Width="682" FontSize="24"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,19 @@
+﻿<Window x:Class="lupinmail_CS.MovieSaveDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lupinmail_CS"
+        mc:Ignorable="d"
+        Title="MovieSaveDialog" Closing="Window_Closing" Closed="Window_Closed" Height="582.5" Initialized="Window_Initialized" ResizeMode="NoResize" Width="1032">
+    <Grid>
+        <Label Content="保存先" FontSize="19" HorizontalAlignment="Left" Margin="24,15,0,0" VerticalAlignment="Top" />
+        <TextBox x:Name="PathTextBox" HorizontalAlignment="Left" FontSize="19" Margin="120,20,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" RenderTransformOrigin="0.496,-0.333" Width="827"/>
+        <Button x:Name="SelectButton" Click="SelectButton_Click" Content="参照" FontSize="20" HorizontalAlignment="Right" Margin="0,20,9,0" VerticalAlignment="Top" />
+        <Label Content="FFMPEGのオプション" FontSize="19" HorizontalAlignment="Left" Margin="6,63,0,0" VerticalAlignment="Top" />
+        <TextBox x:Name="FFMPEG_OPTION_BOX"  HorizontalAlignment="Right" FontSize="20" Margin="0,69,21,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="820" Height="431"/>
+        <Button x:Name="Save_button" FontSize="20" Content="保存" HorizontalAlignment="Left" Click="Save_button_Click" Height="38" Margin="936,510,0,0" VerticalAlignment="Top" Width="82"/>
+        <Button x:Name="Close_button" FontSize="20" Content="閉じる" Click="Close_button_Click" HorizontalAlignment="Left" Height="37" Margin="14,506,0,0" VerticalAlignment="Top" Width="129"/>
+
+    </Grid>
+</Window>
