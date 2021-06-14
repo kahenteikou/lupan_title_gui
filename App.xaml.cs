@@ -19,6 +19,7 @@ namespace lupinmail_CS
 
         private void Application_Startup(object sender, StartupEventArgs e)
         {
+            System.Windows.Forms.Application.EnableVisualStyles();
             logWindow = new LogWindow();
             mainWindow = new MainWindow(logWindow);
             logWindow.Show();
